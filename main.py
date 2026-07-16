@@ -3,5 +3,4 @@ import matplotlib.pyplot as plt
 import numpy as np
 df=pd.read_csv("netflix_titles.csv")
 df=df.dropna()
-print(df.isnull().sum())
 df.to_csv("final dataset.csv",index=False)
